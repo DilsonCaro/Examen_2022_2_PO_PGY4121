@@ -1,0 +1,56 @@
+{
+    "alumno":
+    [
+        {"id": 1, "Nombre":"Patricio", "Apellido": "Perez", "Password":"123"},
+        {"id": 2, "Nombre":"Patricia", "Apellido": "Diaz", "Password":"123"},
+        {"id": 3, "Nombre":"Ana", "Apellido": "Cortez", "Password":"123"},
+        {"id": 4, "Nombre":"Luis", "Apellido": "Aros", "Password":"123"},
+        {"id": 5, "Nombre":"Diego", "Apellido": "Lopez", "Password":"123"}
+
+    ],
+
+    "profesor":
+    [
+        {"id": 1, "Nombre":"Patricio","Apellido":"Yañez", "Password":"123"},
+        {"id": 2, "Nombre":"José","Apellido":"Pino", "Password":"123"},
+        {"id": 3, "Nombre":"Gerardo","Apellido":"Cerda", "Password":"123"},
+        {"id": 4, "Nombre":"Richard","Apellido":"Perez", "Password":"123"}
+
+    ],
+
+    "ramos":
+    [
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D"},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D"},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D"},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D"},
+        {"id": 5, "Nombre":"Ciencias", "Sección":"CIC_001D"}
+
+    ],
+
+    "horario":
+    [
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D", "idAlumno":1, "idProfesor":1},
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D", "idAlumno":2, "idProfesor":1},
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D", "idAlumno":3, "idProfesor":1},
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D", "idAlumno":4, "idProfesor":1},
+        {"id": 1, "Nombre":"Matematica", "Sección":"MAT_001D", "idAlumno":5, "idProfesor":1},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D", "idAlumno":1, "idProfesor":2},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D", "idAlumno":2, "idProfesor":2},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D", "idAlumno":3, "idProfesor":2},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D", "idAlumno":4, "idProfesor":2},
+        {"id": 2, "Nombre":"Lenguaje", "Sección":"LEN_001D", "idAlumno":5, "idProfesor":2},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D", "idAlumno":1, "idProfesor":3},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D", "idAlumno":2, "idProfesor":3},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D", "idAlumno":3, "idProfesor":3},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D", "idAlumno":4, "idProfesor":3},
+        {"id": 3, "Nombre":"Inglés", "Sección":"ING_001D", "idAlumno":5, "idProfesor":3},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D", "idAlumno":1, "idProfesor":4},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D", "idAlumno":2, "idProfesor":4},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D", "idAlumno":3, "idProfesor":4},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D", "idAlumno":4, "idProfesor":4},
+        {"id": 4, "Nombre":"Historia", "Sección":"HIS_001D", "idAlumno":5, "idProfesor":4}
+
+    ]
+
+}

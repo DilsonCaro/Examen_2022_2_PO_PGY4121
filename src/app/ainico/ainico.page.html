@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>inicio sesion Alumno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Correo</ion-label>
+    <ion-input #correo></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label position="floating">Contraseña</ion-label>
+    <ion-input #password></ion-input>
+  </ion-item> 
+  <br> 
+  <br>
+  <div id="container">
+  <ion-button [routerLink]="['/olvidar']" size="small">
+  <ion-icon name="lock-closed-outline"></ion-icon>
+  Olvidaste tu contraseña?
+  </ion-button>
+  <br> 
+  <br>
+  <ion-button [routerLink]="['/aingreso']" size="small">
+  <ion-icon name="enter-outline"></ion-icon>
+  Iniciar sesion
+  </ion-button>
+  </div>
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button><ion-icon name="code"></ion-icon></ion-fab-button>
+    <ion-fab-list side="start">
+      <ion-fab-button [routerLink]="['/aregistro']"><ion-icon name="person-add-outline"></ion-icon></ion-fab-button>
+      <ion-fab-button [routerLink]="['/einicios']"><ion-icon name="arrow-back-outline"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-button (click)="notificar(correo, password)" color="success">
+      <ion-icon slot="icon-only" name="checkbox-outline"></ion-icon>
+    </ion-button>
+
+    <ion-button (click)="limpiar(correo, password)" color="danger" slot="end">
+      <ion-icon slot="icon-only" name="trash"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
