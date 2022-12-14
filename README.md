@@ -1,0 +1,4 @@
+# Examen_2022_2_PO_PGY4121
+Examen transversal de PROGRAMACION DE APLICACIONES MOVILES
+
+Este es mi examen Examen transversal de PROGRAMACION DE APLICACIONES MOVILES
